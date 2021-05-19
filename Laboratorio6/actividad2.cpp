@@ -13,9 +13,14 @@ int main(){
      if ((numero1 == numero2) && (numero1 == numero3) && (numero2 == numero3))
      {
         printf("hay 2 o mas numeros del mismo valor\n");
-     } else (){
-         
+     } else if ((numero1 > numero2) && (numero1 > numero3)){
+         printf("el numero %i es el mayor de los 3\n", numero1 );
+     } else if ((numero2 > numero1) && (numero2 > numero3))
+     {
+         printf("el numero %i es el mayor de los 3\n", numero2 );
+     } else{
+         printf("el numero %i es el mayor de los 3\n", numero3);
      }
-     
 
+     return 0;
 }
