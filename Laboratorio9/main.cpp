@@ -38,7 +38,8 @@ int main(){
     }else if ((opcion == 4) && (numero2 != 0))
     {
     printf("El resultado es: %i\n", calculadora(opcion, numero1, numero2));
-    }           
+    }
+    //seleccion de operacion           
      else
     {
     printf("El resultado es: %i\n", calculadora(opcion, numero1, numero2));
