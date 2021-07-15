@@ -13,8 +13,7 @@ int menu() {
     scanf("%i", &opcion);
     return opcion;
 }
-
-void mostrarAgendas(){
+void Archivos(){
         printf("Las agendas de contactos disponibles son:\n");
         system("ls *.txt");
 }
